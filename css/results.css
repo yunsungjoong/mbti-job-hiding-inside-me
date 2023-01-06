@@ -3,31 +3,28 @@ body {
     background-image: url("../images/result_bg.jpg");
     background-position: top center;
     background-repeat: no-repeat;
-}
-
-.character {
-    width : 100%;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-}
-
-.result {
+  }
+  .character {
     width: 100%;
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-}
-.result .box {
+    margin-bottom: 20px;
+  }
+  .result {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .result .box {
     min-height: 70px;
-    background-color: #ffffff;
     margin-bottom: 15px;
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 20px;
+    background-color: #FFFFFF;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,43 +32,38 @@ body {
     font-weight: 500;
     line-height: 1.4;
     text-align: center;
-    
-}
-
-.result h3 {
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 1.4;
-    text-align: center;
+  }
+  .result h3 {
     margin-top: 40px;
     margin-bottom: 20px;
-}
-
-.result .jobs {
-    height: 200px;
-    display: flex;
-    gap : 10px; /* 자식요소 하나하나에 갭을 만들어줌 */
-    margin-bottom: 30px;
-}
-
-.result .job {
-    flex : 1; /* 1:1 비율로 만들어져있음 */
-    background-color: #FFFFFF;
-    background-image: url("../images/result_star.png");
-    background-position: center center;  /* 가로 세로 가운데 정렬*/
-    background-repeat: no-repeat; /* 반복되는 이미지를 반복하지 않겠다.*/
-    font-size: 30px;
     font-weight: 700;
+    font-size: 30px;
     line-height: 1.4;
     text-align: center;
-    display: flex; /* 수직정렬*/
-    justify-content: center;
-    align-items: center;
-    border: 1px solid;
+  }
+  .result .jobs {
+    height: 200px;
+    display: flex;
+    gap: 10px;
+    padding-bottom: 30px;
+  }
+  .result .job {
+    flex: 1;
     border: 1px solid #FFE603;
     border-radius: 20px;
-}
-.result .lecture img {
+    background-color: #FFFFFF;
+    background-image: url("../images/result_star.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.4;
+    text-align: center;
+  }
+  .result .lecture img {
     width: 100%;
     margin-bottom: 40px;
   }
